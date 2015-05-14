@@ -1,0 +1,68 @@
+[submodule "core"]
+	path = core
+	url = https://github.com/LucidFusionLabs/core
+	branch = master
+[submodule "imports"]
+	path = imports
+	url = https://github.com/LucidFusionLabs/imports
+	branch = master
+[submodule "spaceball"]
+	path = spaceball
+	url = https://github.com/LucidFusionLabs/spaceball
+	branch = master
+[submodule "term"]
+	path = term
+	url = https://github.com/LucidFusionLabs/term
+	branch = master
+[submodule "cb"]
+	path = cb
+	url = https://github.com/LucidFusionLabs/cb
+	branch = master
+[submodule "miner"]
+	path = miner
+	url = https://github.com/LucidFusionLabs/miner
+	branch = master
+[submodule "fs"]
+	path = fs
+	url = https://github.com/LucidFusionLabs/fs
+	branch = master
+[submodule "calculator"]
+	path = calculator
+	url = https://github.com/LucidFusionLabs/calculator
+	branch = master
+[submodule "editor"]
+	path = editor
+	url = https://github.com/LucidFusionLabs/editor
+	branch = master
+[submodule "browser"]
+	path = browser
+	url = https://github.com/LucidFusionLabs/browser
+	branch = master
+[submodule "chess"]
+	path = chess
+	url = https://github.com/LucidFusionLabs/chess
+	branch = master
+[submodule "image"]
+	path = image
+	url = https://github.com/LucidFusionLabs/image
+	branch = master
+[submodule "master"]
+	path = master
+	url = https://github.com/LucidFusionLabs/master
+	branch = master
+[submodule "blaster"]
+	path = blaster
+	url = https://github.com/LucidFusionLabs/blaster
+	branch = master
+[submodule "market"]
+	path = market
+	url = https://github.com/LucidFusionLabs/market
+	branch = master
+[submodule "quake"]
+	path = quake
+	url = https://github.com/LucidFusionLabs/quake
+	branch = master
+[submodule "senators"]
+	path = senators
+	url = https://github.com/LucidFusionLabs/senators
+	branch = master
