@@ -59,6 +59,8 @@ else()
   #set(LFL_GLFW 1)
   #set(LFL_SDL 1)
   #set(LFL_CUDA 1)
+  set(LFL_LIBUV 1)
+  set(LFL_CMAKEDAEMON 1)
 endif()
 
 if(NOT WIN32)
@@ -74,7 +76,7 @@ set(CLING_LLVM_DIR $ENV{HOME}/cling-build/inst)
 set(LFL_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set(LFL_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR})
 set(LFL_CORE_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR}/core)
-include(core/CMake/Root.cmake)
+include(core/CMake/LFLCore.cmake)
 
 # crystal bawl
 add_subdirectory(cb)
