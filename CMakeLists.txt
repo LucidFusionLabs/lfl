@@ -18,6 +18,7 @@ set(LFL_CRITTERCISM 1)
 set(LFL_HOCKEYAPP 1)
 set(LFL_REF10EXTRACT 1)
 set(LFL_MOSH 1)
+set(LFL_STOCKFISH 1)
 
 # configure
 if(LFL_IOS)
