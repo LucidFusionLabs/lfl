@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.3)
 set(LFL_OSX_CERT OSX Developer \(FFFFFFFFFF\))
 set(LFL_IOS_CERT iPhone Developer \(FFFFFFFFFF\))
+set(LFL_IOS_TEAM)
 set(LFL_IOS_PROVISION /Users/developer/Downloads/developer.mobileprovision)
+set(LFL_IOS_PROVISION_NAME)
 
 # os
 include(core/CMake/LFLOS.cmake)
