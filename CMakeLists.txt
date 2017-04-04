@@ -81,6 +81,8 @@ if(NOT WIN32 AND NOT LFL_ANDROID)
 endif()
 
 # external imports
+set(ADMOB_OPTIONS -F$ENV{HOME}/Firebase/AdMob)
+set(ADMOB_LIBS -F$ENV{HOME}/Firebase/AdMob)
 set(V8_DIR $ENV{HOME}/v8)
 set(LLVM_DIR $ENV{HOME}/llvm)
 set(CLING_LLVM_DIR $ENV{HOME}/cling-build/inst)
