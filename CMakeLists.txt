@@ -15,8 +15,7 @@ set(LFL_JPEG 1)
 set(LFL_BOX2D 1)
 set(LFL_SQLITE 1)
 set(LFL_SQLCIPHER 1)
-set(LFL_CRITTERCISM 1)
-set(LFL_HOCKEYAPP 1)
+set(LFL_FABRIC 1)
 set(LFL_REF10EXTRACT 1)
 
 if(NOT LFL_XCODE)
@@ -81,8 +80,6 @@ if(NOT WIN32 AND NOT LFL_ANDROID)
 endif()
 
 # external imports
-set(ADMOB_OPTIONS -F$ENV{HOME}/Firebase/AdMob)
-set(ADMOB_LIBS -F$ENV{HOME}/Firebase/AdMob)
 set(V8_DIR $ENV{HOME}/v8)
 set(LLVM_DIR $ENV{HOME}/llvm)
 set(CLING_LLVM_DIR $ENV{HOME}/cling-build/inst)
@@ -94,47 +91,19 @@ set(LFL_CORE_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR}/core)
 set(LFL_OS_CORE_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR}/../${LFL_OS}/core)
 include(core/CMake/LFLCore.cmake)
 
-# crystal bawl
-add_subdirectory(cb)
-
-# data miner
+# projects
+add_subdirectory(CrystalBawl)
 add_subdirectory(miner)
-
-# fusion sensor
-add_subdirectory(fs)
-
-# calculator
+add_subdirectory(FusionSensor)
 add_subdirectory(calculator)
-
-# terminal
-add_subdirectory(term)
-
-# editor
-add_subdirectory(editor)
-
-# web browser
-add_subdirectory(browser)
-
-# chess
-add_subdirectory(chess)
-
-# spaceball
-add_subdirectory(spaceball)
-
-# image util
+add_subdirectory(LTerminal)
+add_subdirectory(LEditor)
+add_subdirectory(LBrowser)
+add_subdirectory(LChess)
+add_subdirectory(SpaceballFuture)
 add_subdirectory(image)
-
-# master server list
 add_subdirectory(master)
-
-# email marketing
 add_subdirectory(blaster)
-
-# market app
 add_subdirectory(market)
-
-# q3 clone
-add_subdirectory(quake)
-
-# irc bots
+add_subdirectory(LQuake)
 add_subdirectory(senators)

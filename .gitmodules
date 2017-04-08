@@ -2,41 +2,13 @@
 	path = core
 	url = https://github.com/LucidFusionLabs/core
 	branch = master
-[submodule "spaceball"]
-	path = spaceball
-	url = https://github.com/LucidFusionLabs/spaceball
-	branch = master
-[submodule "term"]
-	path = term
-	url = https://github.com/LucidFusionLabs/term
-	branch = master
-[submodule "cb"]
-	path = cb
-	url = https://github.com/LucidFusionLabs/cb
-	branch = master
 [submodule "miner"]
 	path = miner
 	url = https://github.com/LucidFusionLabs/miner
 	branch = master
-[submodule "fs"]
-	path = fs
-	url = https://github.com/LucidFusionLabs/fs
-	branch = master
 [submodule "calculator"]
 	path = calculator
 	url = https://github.com/LucidFusionLabs/calculator
-	branch = master
-[submodule "editor"]
-	path = editor
-	url = https://github.com/LucidFusionLabs/editor
-	branch = master
-[submodule "browser"]
-	path = browser
-	url = https://github.com/LucidFusionLabs/browser
-	branch = master
-[submodule "chess"]
-	path = chess
-	url = https://github.com/LucidFusionLabs/chess
 	branch = master
 [submodule "image"]
 	path = image
@@ -54,11 +26,31 @@
 	path = market
 	url = https://github.com/LucidFusionLabs/market
 	branch = master
-[submodule "quake"]
-	path = quake
-	url = https://github.com/LucidFusionLabs/quake
-	branch = master
 [submodule "senators"]
 	path = senators
 	url = https://github.com/LucidFusionLabs/senators
 	branch = master
+[submodule "LTerminal"]
+	path = LTerminal
+	url = https://github.com/LucidFusionLabs/LTerminal
+[submodule "CrystalBawl"]
+	path = CrystalBawl
+	url = https://github.com/LucidFusionLabs/CrystalBawl
+[submodule "LChess"]
+	path = LChess
+	url = https://github.com/LucidFusionLabs/LChess
+[submodule "LBrowser"]
+	path = LBrowser
+	url = https://github.com/LucidFusionLabs/LBrowser
+[submodule "FusionSensor"]
+	path = FusionSensor
+	url = https://github.com/LucidFusionLabs/FusionSensor
+[submodule "LEditor"]
+	path = LEditor
+	url = https://github.com/LucidFusionLabs/LEditor
+[submodule "SpaceballFuture"]
+	path = SpaceballFuture
+	url = https://github.com/LucidFusionLabs/SpaceballFuture
+[submodule "LQuake"]
+	path = LQuake
+	url = https://github.com/LucidFusionLabs/LQuake
