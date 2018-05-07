@@ -2,55 +2,39 @@
 	path = core
 	url = https://github.com/LucidFusionLabs/core
 	branch = master
-[submodule "miner"]
-	path = miner
-	url = https://github.com/LucidFusionLabs/miner
-	branch = master
-[submodule "calculator"]
-	path = calculator
-	url = https://github.com/LucidFusionLabs/calculator
-	branch = master
-[submodule "image"]
-	path = image
-	url = https://github.com/LucidFusionLabs/image
-	branch = master
-[submodule "master"]
-	path = master
-	url = https://github.com/LucidFusionLabs/master
-	branch = master
-[submodule "blaster"]
-	path = blaster
-	url = https://github.com/LucidFusionLabs/blaster
-	branch = master
-[submodule "market"]
-	path = market
-	url = https://github.com/LucidFusionLabs/market
-	branch = master
-[submodule "senators"]
-	path = senators
-	url = https://github.com/LucidFusionLabs/senators
-	branch = master
 [submodule "LTerminal"]
 	path = LTerminal
 	url = https://github.com/LucidFusionLabs/LTerminal
 [submodule "CrystalBawl"]
 	path = CrystalBawl
 	url = https://github.com/LucidFusionLabs/CrystalBawl
-[submodule "LChess"]
-	path = LChess
-	url = https://github.com/LucidFusionLabs/LChess
-[submodule "LBrowser"]
-	path = LBrowser
-	url = https://github.com/LucidFusionLabs/LBrowser
 [submodule "FusionSensor"]
 	path = FusionSensor
 	url = https://github.com/LucidFusionLabs/FusionSensor
-[submodule "LEditor"]
-	path = LEditor
-	url = https://github.com/LucidFusionLabs/LEditor
 [submodule "SpaceballFuture"]
 	path = SpaceballFuture
 	url = https://github.com/LucidFusionLabs/SpaceballFuture
-[submodule "LQuake"]
-	path = LQuake
-	url = https://github.com/LucidFusionLabs/LQuake
+[submodule "Photoducer"]
+	path = Photoducer
+	url = https://github.com/LucidFusionLabs/Photoducer
+[submodule "AncientChess"]
+	path = AncientChess
+	url = https://github.com/LucidFusionLabs/AncientChess
+[submodule "TepidFusion"]
+	path = TepidFusion
+	url = https://github.com/LucidFusionLabs/TepidFusion
+[submodule "TinyBrowser"]
+	path = TinyBrowser
+	url = https://github.com/LucidFusionLabs/TinyBrowser
+[submodule "QuakeClone"]
+	path = QuakeClone
+	url = https://github.com/LucidFusionLabs/QuakeClone
+[submodule "LucidTrader"]
+	path = LucidTrader
+	url = https://github.com/LucidFusionLabs/LucidTrader
+[submodule "BlasterMaster"]
+	path = BlasterMaster
+	url = https://github.com/LucidFusionLabs/BlasterMaster
+[submodule "JITLab"]
+	path = JITLab
+	url = https://github.com/LucidFusionLabs/JITLab
