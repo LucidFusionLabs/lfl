@@ -17,9 +17,6 @@
 [submodule "Photoducer"]
 	path = Photoducer
 	url = https://github.com/LucidFusionLabs/Photoducer
-[submodule "AncientChess"]
-	path = AncientChess
-	url = https://github.com/LucidFusionLabs/AncientChess
 [submodule "TepidFusion"]
 	path = TepidFusion
 	url = https://github.com/LucidFusionLabs/TepidFusion
@@ -38,3 +35,6 @@
 [submodule "JITLab"]
 	path = JITLab
 	url = https://github.com/LucidFusionLabs/JITLab
+[submodule "OldChess"]
+	path = OldChess
+	url = https://github.com/LucidFusionLabs/OldChess
